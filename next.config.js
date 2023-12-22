@@ -9,7 +9,7 @@ const nextConfig = {
     return [
       {
         source: '/join-discord',
-        destination: 'https://discord.com/invite/tFG4E7bgkr',
+        destination: 'https://twitter.com/mohitdebian',
         permanent: false,
       },
     ];
