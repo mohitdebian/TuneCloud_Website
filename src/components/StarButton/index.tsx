@@ -3,8 +3,7 @@ import { NavLink } from '../NavLink';
 import { useState } from 'react';
 
 export const StarButton = () => {
-  const defaultStarCount = '100+';
-  // const [count, setCount] = useState<number>(defaultStarCount);
+  const count = 100; // Assuming this is a numeric value
 
   return (
     <div className="group hidden md:block">
