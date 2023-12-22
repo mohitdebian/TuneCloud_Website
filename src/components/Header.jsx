@@ -73,11 +73,12 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="/#features">Features</MobileNavLink>
-            <MobileNavLink href="/#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="/sponsor">Sponsor</MobileNavLink>
-            <MobileNavLink href="/blog">Blog</MobileNavLink>
-            <MobileNavLink href="/join-discord">Join Discord</MobileNavLink>
+            <MobileNavLink href="https://mohitbio.vercel.app/">Developer Portfolio</MobileNavLink>
+            {/* <MobileNavLink href="/#testimonials">Testimonials</MobileNavLink> */}
+            {/* <MobileNavLink href="/sponsor">Sponsor</MobileNavLink> */}
+            <MobileNavLink href="/join-discord">Follow On Twitter</MobileNavLink>
+            <MobileNavLink href="https://mohitbio.vercel.app/blog">Blog</MobileNavLink>
+            
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -95,15 +96,15 @@ export function Header() {
               <Logo className="h-16 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="/#features">Features</NavLink>
-              <NavLink href="/#testimonials" className="md:hidden lg:inline-block">
+              <NavLink href="https://mohitbio.vercel.app/">Developer Portfolio</NavLink>
+              {/* <NavLink href="/#testimonials" className="md:hidden lg:inline-block">
                 Testimonials
-              </NavLink>
-              <NavLink href="/sponsor">Sponsor</NavLink>
-              <NavLink href="/blog">Blog</NavLink>
+              </NavLink> */}
+              {/* <NavLink href="/sponsor">Sponsor</NavLink> */}
               <NavLink href="/join-discord" className="md:hidden lg:inline-block">
-                Join Discord
+                Follow on Twitter
               </NavLink>
+              <NavLink href="https://mohitbio.vercel.app/">Blog</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
