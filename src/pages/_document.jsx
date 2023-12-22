@@ -1,6 +1,6 @@
 import { Head, Html, Main, NextScript } from 'next/document'
 
-const description = 'A dev-tool that aids faster and precise responsive web development.';
+const description = 'Your Ultimate Ad-Free Music Experience!';
 const image = '/assets/img/responsively-image.png';
 const title = "TuneCloud - Listen Ad Free";
 
