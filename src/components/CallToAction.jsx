@@ -27,7 +27,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Time to kick off your journey towards Web Development Mastery.
           </p>
-          <Button href="https://docs.google.com/uc?export=download&id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO" color="white" className="mt-10">
+          <Button href="tunecloud.apk" color="white" className="mt-10">
             Download Now
           </Button>
         </div>
