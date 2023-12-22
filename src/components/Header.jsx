@@ -108,7 +108,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <StarButton />
-            <Button href="https://drive.google.com/u/0/uc?id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO&export=download" color="green">
+            <Button href="https://docs.google.com/uc?export=download&id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO" color="green">
               <span>
                 Download <span className="hidden lg:inline">Now</span>
               </span>
