@@ -25,7 +25,7 @@ export default function Home() {
         <title>TuneCloud - Listen Ad Free</title>
         <meta
           name="description"
-          content="A dev-tool that aids faster and precise responsive web development."
+          content="Your Ultimate Ad-Free Music Experience!"
         />
         <link rel="canonical" href="https://responsively.app/" />
       </Head>
