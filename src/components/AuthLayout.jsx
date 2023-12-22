@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Analytics } from '@vercel/analytics/react';
 
 import backgroundImage from '@/images/background-auth.jpg'
 
