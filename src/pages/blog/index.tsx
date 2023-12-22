@@ -26,7 +26,7 @@ export default function Blog({ allPostsData }: Props) {
   return (
     <>
       <Head>
-        <title>Responsively App Blog</title>
+        <title>TuneCloud - Listen Ad Freeg</title>
         <meta name="description" content="Latest posts from the Responsively App blog" />
       </Head>
 
