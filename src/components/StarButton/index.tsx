@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export const StarButton = () => {
   const defaultStarCount = '100+';
-  const [count, setCount] = useState<number>(defaultStarCount);
+  // const [count, setCount] = useState<number>(defaultStarCount);
 
   return (
     <div className="group hidden md:block">
