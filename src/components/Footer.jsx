@@ -17,7 +17,7 @@ export function Footer() {
             <div className="-my-1 flex flex-wrap justify-center gap-x-6">
               <NavLink href="/#features">Features</NavLink>
               <NavLink href="/#testimonials">Testimonials</NavLink>
-              <NavLink href="https://drive.google.com/u/0/uc?id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO&export=download">Download</NavLink>
+              <NavLink href="https://docs.google.com/uc?export=download&id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO">Download</NavLink>
               <NavLink href="/sponsor">Sponsor</NavLink>
               <NavLink href="/blog">Blog</NavLink>
               <NavLink href="/join-discord">Join Discord</NavLink>
