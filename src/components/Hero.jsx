@@ -48,7 +48,7 @@ export function Hero() {
         too! 🎉
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://docs.google.com/uc?export=download&id=1F92SLJIySgepdsRJGv8JFVO2uVOhZQzO">Download Now</Button>
+        <Button href="tunecloud.apk">Download Now</Button>
         {/* <Button variant="outline">
           <Icon icon="akar-icons:github-fill" className="h-5 w-5" />
           <span className="ml-3">Learn More</span>
