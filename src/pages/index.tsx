@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 
 import {CallToAction} from '@/components/CallToAction';
 import {Faqs} from '@/components/Faqs';
