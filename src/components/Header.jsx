@@ -76,7 +76,8 @@ function MobileNavigation() {
             <MobileNavLink href="https://mohitbio.vercel.app/">Developer Portfolio</MobileNavLink>
             {/* <MobileNavLink href="/#testimonials">Testimonials</MobileNavLink> */}
             {/* <MobileNavLink href="/sponsor">Sponsor</MobileNavLink> */}
-            <MobileNavLink href="/join-discord">Follow On Twitter</MobileNavLink>
+            <MobileNavLink href="/join-discord">Follow On Twitter (X)</MobileNavLink>
+            <MobileNavLink href="mailto:mohitdebian@gmail.com">Contact Us</MobileNavLink>
             <MobileNavLink href="https://mohitbio.vercel.app/blog">Blog</MobileNavLink>
             
           </Popover.Panel>
@@ -88,7 +89,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="py-10" style={{marginTop: '-15px' }}>
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
