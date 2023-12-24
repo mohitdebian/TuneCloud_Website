@@ -10,7 +10,7 @@ import {SpecialSponsors} from './SpecialSponsors';
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl" style={{marginTop: '-65px' }}>
+      <h1 className="mx-auto font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl" style={{marginTop: '-85px' }}>
         Elevate Your Sound with Ad-Free Listening!  🌟🌟🌟{' '}
         <span className="relative whitespace-nowrap text-emerald-600">
           <svg
@@ -39,13 +39,16 @@ export function Hero() {
         Elevate your music experience with non-stop, ad-free listening and unlimited free downloads. Explore, play, and enjoy a world of tunes at your fingertips! <br />
         And it's free and{' '}
         <Link
-          href="https://github.com/responsively-org/responsively-app"
+          href="https://github.com/mohitdebian/TuneCloud_Website"
           className="inline-block rounded-lg font-medium text-slate-900 hover:text-slate-950"
           target="_blank"
         >
           open source
         </Link>{' '}
         too! 🎉
+        <span class="inline-block rounded-lg text-slate-950 hover:text-slate-900 text-base mt-4">
+          Made with ❣️ by Mohit
+        </span>
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="tunecloud.apk" style={{ margin: '10px', marginTop: '0px' }}>Download Now</Button>
