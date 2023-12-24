@@ -10,8 +10,8 @@ import {SpecialSponsors} from './SpecialSponsors';
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Elevate Your Sound with Ad-Free Listening!{' '}
+      <h1 className="mx-auto font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl" style={{marginTop: '-65px' }}>
+        Elevate Your Sound with Ad-Free Listening!  🌟🌟🌟{' '}
         <span className="relative whitespace-nowrap text-emerald-600">
           <svg
             aria-hidden="true"
@@ -35,7 +35,7 @@ export function Hero() {
           <span className="relative">TuneCloud</span>
         </span>{' '}
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700"style={{marginTop: '50px' }}>
         Elevate your music experience with non-stop, ad-free listening and unlimited free downloads. Explore, play, and enjoy a world of tunes at your fingertips! <br />
         And it's free and{' '}
         <Link
@@ -48,7 +48,8 @@ export function Hero() {
         too! 🎉
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="tunecloud.apk">Download Now</Button>
+        <Button href="tunecloud.apk" style={{ margin: '10px', marginTop: '0px' }}>Download Now</Button>
+
         {/* <Button variant="outline">
           <Icon icon="akar-icons:github-fill" className="h-5 w-5" />
           <span className="ml-3">Learn More</span>
